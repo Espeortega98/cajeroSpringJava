@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+
+*{
+	background-color: lightgrey;
+}
+ #divIndex{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+ 
+ a{
+ text-decoration: none;
+ color: blue;
+ margin: 7px;
+ }
+ a:hover{
+ font-size: 1.25em;
+ text-decoration: underline;
+ }
+ 
+ table{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 33%;
+ margin-right: 33%;
+ background-color: wheat;
+ border: 0px;
+ box-shadow: 0px 0px 10px 3px grey;
+ 
+ }
+ 
+ body h2{
+ margin-left: 43%;
+ font-family: monospace;
+ font-size: 26px;
+ }
+ 
+ #btnOtras{
+ position: absolute;
+ left: 15%;
+ }
+ table th{
+ background-color: wheat;
+ border: 2px solid black;
+ }
+ table td{
+ background-color: white;
+ }
+ 
+ input{
+ background-color: white;
+ height: 30px;
+ }
+ 
+ .divInput{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 200px;
+ }
+ 
+ .divInput form{
+ display: flex;
+ flex-direction: column;
+ margin: 10px;
+ }
+ .divInput form button{
+ margin-top: 10px;
+ width: 60px;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 15%;
+} 
+#h2Login {
+ 
+ margin-left: 40%;
+	
+}
